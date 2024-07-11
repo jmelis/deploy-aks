@@ -13,3 +13,5 @@ spec:
   updateStrategy:
     registryPoll:
       interval: 10m
+  grpcPodConfig:
+    securityContextConfig: restricted
